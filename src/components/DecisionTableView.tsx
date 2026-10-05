@@ -161,7 +161,7 @@ export const DecisionTableView: React.FC<DecisionTableViewProps> = ({
               <span>AIDLC Approval Gate Decision Matrix</span>
             </h2>
             <p className="text-xs text-slate-500 mt-0.5">
-              Comprehensive decision table modeling subagent privileges, tool permissions, gate hook enforcements, and designated Catelyst reviewers.
+              Comprehensive decision table modeling subagent privileges, tool permissions, gate hook enforcements, and designated Catalyst reviewers.
             </p>
           </div>
 

@@ -97,7 +97,7 @@ export const RuleValidatorReport: React.FC<RuleValidatorReportProps> = ({
         </div>
       )}
 
-      {/* Catelyst Mission & North Star Banner */}
+      {/* Catalyst Mission & North Star Banner */}
       <div className="bg-slate-900 text-white rounded-2xl p-6 shadow-sm border border-slate-800">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div className="space-y-2 max-w-3xl">
@@ -140,12 +140,12 @@ export const RuleValidatorReport: React.FC<RuleValidatorReportProps> = ({
             </div>
           </div>
 
-          {/* Catelyst Team Leads Full Roster */}
+          {/* Catalyst Team Leads Full Roster */}
           <div className="bg-slate-800/80 p-4 rounded-xl border border-slate-700/80 text-xs space-y-2 lg:w-80 shrink-0">
             <div className="flex items-center justify-between text-slate-300 font-semibold border-b border-slate-700 pb-1.5 text-[11px]">
               <span className="flex items-center gap-1.5">
                 <Users className="w-3.5 h-3.5 text-orange-400" />
-                Catelyst Team Leads ({CATELYST_TEAM_MEMBERS.length})
+                Catalyst Team Leads ({CATELYST_TEAM_MEMBERS.length})
               </span>
               <span className="font-mono text-orange-400 text-[10px] uppercase font-bold">1346-LVNV</span>
             </div>
@@ -301,7 +301,7 @@ export const RuleValidatorReport: React.FC<RuleValidatorReportProps> = ({
         </div>
       </div>
 
-      {/* Catelyst Milestone 1 Advice & Learning Checklist Card */}
+      {/* Catalyst Milestone 1 Advice & Learning Checklist Card */}
       <div className="bg-slate-50 border border-slate-200/90 rounded-xl p-5 space-y-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">

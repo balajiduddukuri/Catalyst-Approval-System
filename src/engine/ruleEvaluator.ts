@@ -189,7 +189,7 @@ export function simulateRuleExecution(
   if (matchedRule) {
     matchedRule.stages.forEach((stage) => {
       const role = roleMap.get(stage.approverRoleId);
-      const approverName = stage.approverPersonName || (role ? role.assignedPerson : 'Catelyst Lead');
+      const approverName = stage.approverPersonName || (role ? role.assignedPerson : 'Catalyst Lead');
 
       approvalChain.push({
         stageNumber: stage.stageNumber,
@@ -225,7 +225,7 @@ export function simulateRuleExecution(
   } else if (outcome === 'GATE_VIOLATION_BLOCKED') {
     decisionReason += ' - Blocked by hard-enforced approval gate hook or subagent tool scoping violation.';
   } else {
-    decisionReason += ' - Awaiting designated Catelyst gate reviewer sign-off before downstream stages unlock.';
+    decisionReason += ' - Awaiting designated Catalyst gate reviewer sign-off before downstream stages unlock.';
   }
 
   return {

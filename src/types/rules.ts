@@ -38,7 +38,7 @@ export interface TeamMember {
   name: string;
   role: string;
   email: string;
-  team: string; // Catelyst
+  team: string; // Catalyst
   account: string; // LVNV-FALC
 }
 

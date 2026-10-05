@@ -82,7 +82,7 @@ export const LiveRequestHub: React.FC<LiveRequestHubProps> = ({
 
   const handleApprove = () => {
     if (!activeRequest) return;
-    onApproveStage(activeRequest.id, actionComments || 'Gate hook authorized by Catelyst stage reviewer.');
+    onApproveStage(activeRequest.id, actionComments || 'Gate hook authorized by Catalyst stage reviewer.');
     setActionComments('');
   };
 

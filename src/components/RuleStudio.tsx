@@ -168,7 +168,7 @@ export const RuleStudio: React.FC<RuleStudioProps> = ({
       <div className="lg:col-span-4 bg-white border border-slate-200 rounded-xl p-5 shadow-xs space-y-4">
         <div className="flex items-center justify-between border-b border-slate-100 pb-3">
           <div>
-            <h3 className="text-sm font-semibold text-slate-900">Catelyst AIDLC Rules</h3>
+            <h3 className="text-sm font-semibold text-slate-900">Catalyst AIDLC Rules</h3>
             <p className="text-[11px] text-slate-500">Execution priority governs gate evaluation</p>
           </div>
 
@@ -446,7 +446,7 @@ export const RuleStudio: React.FC<RuleStudioProps> = ({
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                    Designated Catelyst Gate Reviewers
+                    Designated Catalyst Gate Reviewers
                   </h3>
                   <p className="text-[11px] text-slate-500">
                     Defines responsible lead, gate hook mode, and escalation timeout.
@@ -507,7 +507,7 @@ export const RuleStudio: React.FC<RuleStudioProps> = ({
                             const newStages = [...editingRule.stages];
                             newStages[idx].approverRoleId = e.target.value;
                             newStages[idx].approverRoleName = r ? r.name : e.target.value;
-                            newStages[idx].approverPersonName = r ? r.assignedPerson : 'Catelyst Lead';
+                            newStages[idx].approverPersonName = r ? r.assignedPerson : 'Catalyst Lead';
                             setEditingRule({ ...editingRule, stages: newStages });
                           }}
                           className="w-full px-2 py-1 border border-slate-200 rounded text-xs"
@@ -568,7 +568,7 @@ export const RuleStudio: React.FC<RuleStudioProps> = ({
             {/* Invariant Policy Toggles */}
             <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-3">
               <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                Catelyst Architecture Policy Invariants
+                Catalyst Architecture Policy Invariants
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">

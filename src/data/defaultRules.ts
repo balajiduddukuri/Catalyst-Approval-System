@@ -11,9 +11,9 @@ import {
   TeamMember,
 } from '../types/rules';
 
-export const CATELYST_TEAM_METADATA = {
+export const CATALYST_TEAM_METADATA = {
   teamCode: '1346-LVNV-FALC',
-  teamName: 'Catelyst',
+  teamName: 'Catalyst',
   account: 'LVNV-FALC',
   mission: 'AI/RUN Mission 2026 · Milestone 1',
   dueDate: '2026-09-30',
@@ -24,14 +24,15 @@ export const CATELYST_TEAM_METADATA = {
   shiftTo: 'Agent drafts every artefact; human approves or decides at each gated stage before the workflow proceeds.',
   targetLevel: 3,
 };
+export const CATELYST_TEAM_METADATA = CATALYST_TEAM_METADATA;
 
-export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
+export const CATALYST_TEAM_MEMBERS: TeamMember[] = [
   {
     id: 'mem-harjinder',
     name: 'Harjinder Singh',
     role: 'Lead Architect & Technical Lead',
     email: 'harjinder.singh@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -39,7 +40,7 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Balaji Duddukuri',
     role: 'AIDLC Orchestrator Lead Engineer',
     email: 'Mr.dbalaji@gmail.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -47,7 +48,7 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Ismail Chorwadwala',
     role: 'Requirements & Scoping Gate Owner',
     email: 'ismail.chorwadwala@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -55,7 +56,7 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Jagan Vijayakumar',
     role: 'Quality & Test Automation Lead',
     email: 'jagan.vijayakumar@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -63,7 +64,7 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Krishnakumar Bada',
     role: 'Core Engineering & Implementation Lead',
     email: 'krishnakumar.bada@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -71,7 +72,7 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Manish Sethi',
     role: 'Code Review & PR Release Gate Owner',
     email: 'manish.sethi@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
   {
@@ -79,12 +80,13 @@ export const CATELYST_TEAM_MEMBERS: TeamMember[] = [
     name: 'Vaibhav Singh',
     role: 'Deployment & Operations Gate Owner',
     email: 'vaibhav.singh@lvnv-falc.com',
-    team: 'Catelyst',
+    team: 'Catalyst',
     account: 'LVNV-FALC',
   },
 ];
+export const CATELYST_TEAM_MEMBERS = CATALYST_TEAM_MEMBERS;
 
-export const CATELYST_GATE_ROLES: ApprovalRole[] = [
+export const CATALYST_GATE_ROLES: ApprovalRole[] = [
   {
     id: 'role-req-gate',
     name: 'Requirements Gate Reviewer',
@@ -145,6 +147,7 @@ export const CATELYST_GATE_ROLES: ApprovalRole[] = [
     isLead: true,
   },
 ];
+export const CATELYST_GATE_ROLES = CATALYST_GATE_ROLES;
 
 export const CATELYST_AIDLC_RULES: ApprovalRule[] = [
   {

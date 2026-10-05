@@ -36,7 +36,7 @@ export default function App() {
   const [requests, setRequests] = useState<ApprovalRequest[]>(CATELYST_INITIAL_REQUESTS);
   const [targetStudioRuleId, setTargetStudioRuleId] = useState<string | undefined>(undefined);
 
-  // Simulation state initialized with Catelyst Ticket LVNV-1042
+  // Simulation state initialized with Catalyst Ticket LVNV-1042
   const [simPayload, setSimPayload] = useState<SimulationPayload>(
     CATELYST_SIMULATION_PRESETS[0].payload
   );
@@ -94,7 +94,7 @@ export default function App() {
     });
   };
 
-  // 1-Click Auto-Fix Handler for Catelyst AIDLC rules
+  // 1-Click Auto-Fix Handler for Catalyst AIDLC rules
   const handleApplyAutoFix = (finding: ValidationFinding) => {
     if (!finding.ruleId && !finding.autoFixAction) return;
 
@@ -349,7 +349,7 @@ export default function App() {
         const newLog = {
           id: `log-${Date.now()}`,
           timestamp: new Date().toISOString().replace('T', ' ').substring(0, 19),
-          actor: 'Catelyst Gate Authority',
+          actor: 'Catalyst Gate Authority',
           action: 'GATE_HOOK_REJECTED',
           details: `Stage ${currentIdx + 1} rejected: "${reason}". Subagent returned to revision loop.`,
           hash: Math.random().toString(36).substring(2, 10),
@@ -467,7 +467,7 @@ export default function App() {
         {activeTab === 'docs' && <DocumentationView />}
       </main>
 
-      {/* Subtle Footer with Catelyst Metadata */}
+      {/* Subtle Footer with Catalyst Metadata */}
       <footer className="border-t border-slate-200 bg-white py-4 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-2">
           <div className="flex items-center gap-2">

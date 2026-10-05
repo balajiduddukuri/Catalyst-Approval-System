@@ -59,9 +59,9 @@ export function validateApprovalRules(
           type: 'UNREACHABLE_STAGE',
           severity: 'error',
           title: `Unassigned Gate Reviewer Role in Stage ${stage.stageNumber}`,
-          description: `Gate reviewer role "${stage.approverRoleId}" does not exist in the Catelyst team roster.`,
+          description: `Gate reviewer role "${stage.approverRoleId}" does not exist in the Catalyst team roster.`,
           location: `Rule ${rule.code} > Stage ${stage.stageNumber}`,
-          suggestion: 'Assign a valid Catelyst lead (e.g., Harjinder Singh, Balaji Duddukuri, Manish Sethi).',
+          suggestion: 'Assign a valid Catalyst lead (e.g., Harjinder Singh, Balaji Duddukuri, Manish Sethi).',
           autoFixAvailable: true,
           autoFixAction: 'assign_lead_orchestrator',
         });
@@ -124,7 +124,7 @@ export function validateApprovalRules(
     }
   });
 
-  // 4. Circular Escalation Loops Across Catelyst Roles
+  // 4. Circular Escalation Loops Across Catalyst Roles
   roles.forEach((role) => {
     const visited = new Set<string>();
     let current: ApprovalRole | undefined = role;

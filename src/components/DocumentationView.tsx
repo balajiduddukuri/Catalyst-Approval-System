@@ -126,15 +126,15 @@ const INITIAL_ENHANCEMENTS: EnhancementItem[] = [
   },
 ];
 
-const ARCHITECTURE_DOC_TEXT = `# Catelyst · AIDLC Orchestrator Architecture & Approval Gate Specification
+const ARCHITECTURE_DOC_TEXT = `# Catalyst · AIDLC Orchestrator Architecture & Approval Gate Specification
 
 **AI/RUN Mission 2026 · Milestone 1**  
-**Team**: Catelyst (1346-LVNV-FALC)  
+**Team**: Catalyst (1346-LVNV-FALC)  
 **Account**: LVNV-FALC  
 **Target Maturity Level**: Level 3  
 
 ## 1. Executive Summary & North Star
-The Catelyst AIDLC Orchestrator is a custom Claude Code plugin that converts traditional, manual SDLC stages into an autonomous, agentic pipeline.
+The Catalyst AIDLC Orchestrator is a custom Claude Code plugin that converts traditional, manual SDLC stages into an autonomous, agentic pipeline.
 * Baseline: Fully manual code writing, PR review, test-case writing, dev test execution.
 * Target State: Agent drafts every artefact; human approves or decides at each gated stage before workflow proceeds.
 
@@ -197,7 +197,7 @@ export const DocumentationView: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'CATELYST-AIDLC-ARCHITECTURE.md';
+    a.download = 'CATALYST-AIDLC-ARCHITECTURE.md';
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -392,10 +392,10 @@ export const DocumentationView: React.FC = () => {
         <div className="space-y-6">
           <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-xs space-y-4">
             <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider text-[11px] border-b border-slate-100 pb-2">
-              The Catelyst Mission & Paradigm Shift
+              The Catalyst Mission & Paradigm Shift
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Catelyst's mission under **AI/RUN 2026 (Milestone 1)** addresses the critical pain point of slow deliverables across the SDLC. Before this programme, all code writing, pull request review, test-case writing, and dev test verification were 100% manual.
+              Catalyst's mission under **AI/RUN 2026 (Milestone 1)** addresses the critical pain point of slow deliverables across the SDLC. Before this programme, all code writing, pull request review, test-case writing, and dev test verification were 100% manual.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
@@ -467,7 +467,7 @@ export const DocumentationView: React.FC = () => {
           {/* Team Roles */}
           <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-xs space-y-3">
             <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider text-[11px] border-b border-slate-100 pb-2">
-              Catelyst Team Gate Authorities Roster
+              Catalyst Team Gate Authorities Roster
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
               {CATELYST_TEAM_MEMBERS.map((m) => (
@@ -668,7 +668,7 @@ export const DocumentationView: React.FC = () => {
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-[10px] font-mono text-orange-600 font-bold uppercase tracking-wider">
-                  CATELYST FUTURE PHASES
+                  CATALYST FUTURE PHASES
                 </span>
                 <span className="text-xs text-slate-400">·</span>
                 <span className="text-xs font-semibold text-slate-600">

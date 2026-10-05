@@ -74,7 +74,7 @@ export const TopNav: React.FC<TopNavProps> = ({
                   type="button"
                   onClick={() => setShowTeamModal(true)}
                   className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-orange-50 hover:bg-orange-100 text-orange-700 font-mono text-[10px] font-bold border border-orange-200 transition-colors"
-                  title="Click to display full Catelyst Team Leads list"
+                  title="Click to display full Catalyst Team Leads list"
                 >
                   <Users className="w-3 h-3" />
                   <span>Team Leads ({CATELYST_TEAM_MEMBERS.length})</span>
@@ -205,7 +205,7 @@ export const TopNav: React.FC<TopNavProps> = ({
             <button
               type="button"
               onClick={onResetDefaults}
-              title="Reset Catelyst rules & tickets to baseline"
+              title="Reset Catalyst rules & tickets to baseline"
               className="p-1.5 text-slate-400 hover:text-slate-600 rounded-md hover:bg-slate-100 transition-colors"
             >
               <RotateCcw className="w-4 h-4" />
@@ -223,7 +223,7 @@ export const TopNav: React.FC<TopNavProps> = ({
         </div>
       </header>
 
-      {/* Full Catelyst Team Leads Modal */}
+      {/* Full Catalyst Team Leads Modal */}
       {showTeamModal && (
         <div className="fixed inset-0 z-50 bg-slate-950/40 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl border border-slate-200 max-w-3xl w-full p-6 shadow-2xl space-y-5 animate-in fade-in zoom-in-95 duration-150">
@@ -236,7 +236,7 @@ export const TopNav: React.FC<TopNavProps> = ({
                 <div>
                   <div className="flex items-center gap-2">
                     <h3 className="font-bold text-slate-900 text-base">
-                      Catelyst Team Leads & Gate Authorities
+                      Catalyst Team Leads & Gate Authorities
                     </h3>
                     <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 font-mono text-[10px] font-bold">
                       {CATELYST_TEAM_METADATA.teamCode}

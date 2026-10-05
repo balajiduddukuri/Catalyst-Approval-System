@@ -103,7 +103,7 @@ export const AuditTrailModal: React.FC<AuditTrailModalProps> = ({ request, onClo
           {/* Workflow Stages Progress */}
           <div>
             <h4 className="font-semibold text-slate-900 uppercase tracking-wider text-[11px] mb-3">
-              Catelyst Human Approval Gate Hooks
+              Catalyst Human Approval Gate Hooks
             </h4>
             <div className="space-y-2.5">
               {request.stages.map((stage) => (

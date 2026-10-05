@@ -1,7 +1,7 @@
-# Catelyst · AIDLC Orchestrator Architecture & Approval Gate Specification
+# Catalyst · AIDLC Orchestrator Architecture & Approval Gate Specification
 
 **AI/RUN Mission 2026 · Milestone 1**  
-**Team**: Catelyst (`1346-LVNV-FALC`)  
+**Team**: Catalyst (`1346-LVNV-FALC`)  
 **Account**: `LVNV-FALC`  
 **Target Maturity Level**: Level 3  
 
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary & North Star
 
-The **Catelyst AIDLC Orchestrator** is a custom Claude Code plugin that converts traditional, manual Software Development Life Cycle (SDLC) stages into an autonomous, agentic pipeline. 
+The **Catalyst AIDLC Orchestrator** is a custom Claude Code plugin that converts traditional, manual Software Development Life Cycle (SDLC) stages into an autonomous, agentic pipeline. 
 
 ### The Core Paradigm Shift
 * **Baseline (Shift From)**: Fully manual code writing, pull request review, test-case authoring, and dev verification.
