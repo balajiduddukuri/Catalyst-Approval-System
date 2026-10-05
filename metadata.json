@@ -1,0 +1,6 @@
+{
+  "name": "Catelyst AIDLC Approval Gate Validator",
+  "description": "AIDLC orchestrator approval gate validation engine, subagent tool-scoping linter, and SDLC pipeline simulator for Catelyst (AI/RUN Mission 2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
